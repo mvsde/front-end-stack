@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
