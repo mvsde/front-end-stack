@@ -1,0 +1,26 @@
+$text-color: #2c3e50;
+$brand-color: cornflowerblue;
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    Noto Sans,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    'Noto Color Emoji';
+  line-height: 1.4;
+  word-break: break-word;
+  color: $text-color;
+}
+
+h1 {
+  color: $brand-color;
+}
