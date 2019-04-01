@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "bundle": "webpack main.js -o dist/bundle.js --mode development --devtool false"
+    "bundle": "webpack main.js -o dist/[name].js --mode development --devtool false"
   },
   "dependencies": {
     "webpack": "^4.29.6",

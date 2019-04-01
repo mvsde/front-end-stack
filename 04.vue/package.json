@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "bundle": "webpack"
+    "bundle": "webpack && prettier --write dist/*.js"
   },
   "dependencies": {
     "css-loader": "^2.1.1",
+    "prettier": "^1.16.4",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.29.6",

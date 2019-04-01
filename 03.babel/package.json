@@ -1,14 +1,16 @@
 {
   "scripts": {
-    "transpile:class": "babel class.js -o dist/class.js --presets @babel/preset-env",
-    "transpile:jsx": "babel jsx.jsx -o dist/jsx.js --plugins @babel/plugin-transform-react-jsx",
-    "transpile:typescript": "babel typescript.ts -o dist/typescript.js --presets @babel/preset-typescript"
+    "class": "babel class.js -o dist/class.js --presets @babel/preset-env",
+    "jsx": "babel jsx.jsx -o dist/jsx.js --plugins @babel/plugin-transform-react-jsx",
+    "typescript": "babel typescript.ts -o dist/typescript.js --presets @babel/preset-typescript",
+    "transpile": "npm run class && npm run jsx && npm run typescript && prettier --write dist/*.js"
   },
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
     "@babel/preset-env": "^7.4.2",
-    "@babel/preset-typescript": "^7.3.3"
+    "@babel/preset-typescript": "^7.3.3",
+    "prettier": "^1.16.4"
   }
 }

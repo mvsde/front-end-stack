@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "dev": "webpack main.js -o dist/dev.js --mode development --devtool false",
-    "build": "webpack main.js -o dist/build.js --mode production --devtool false && prettier --write dist/build.js"
+    "bundle": "webpack && prettier --write dist/*.js"
   },
   "dependencies": {
     "prettier": "^1.16.4",
