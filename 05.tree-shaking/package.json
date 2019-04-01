@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "webpack main.js -o dist/dev.js --mode development --devtool false",
+    "build": "webpack main.js -o dist/build.js --mode production --devtool false && prettier --write dist/build.js"
+  },
+  "dependencies": {
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
