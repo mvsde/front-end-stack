@@ -3,7 +3,7 @@
     "class": "babel class.js -o dist/class.js --presets @babel/preset-env",
     "jsx": "babel jsx.js -o dist/jsx.js --presets @vue/babel-preset-jsx",
     "typescript": "babel typescript.ts -o dist/typescript.js --presets @babel/preset-typescript",
-    "transpile": "npm run class && npm run jsx && npm run typescript && prettier --write dist/*.js"
+    "transpile": "mkdir dist && npm run class && npm run jsx && npm run typescript && prettier --write dist/*.js"
   },
   "dependencies": {
     "@babel/cli": "^7.2.3",
